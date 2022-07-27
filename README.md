@@ -10,7 +10,7 @@ This is learning internet server technologies.
 #### If you hava any bugs or issues , If you want to explain my code pleace contact me on : nimeshpiyumantha11@gmail.com
 
 ##
-![alt text](https://github.com/NimeshPiyumantha/Socket-Programming/blob/main/assests//Stocke_Programming.png)
+![alt text](https://github.com/NimeshPiyumantha/Stocket-Programming/blob/master/Module-2/src/assests/Stocke_Programming.png)
 ##
 
 ##  Connect with me
