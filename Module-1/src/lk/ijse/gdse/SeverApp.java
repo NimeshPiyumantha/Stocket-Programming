@@ -16,5 +16,7 @@ public class SeverApp {
         System.out.println("Sever is running in port " + port);
 
         Socket localSocket = serverSocket.accept();
+        System.out.println("POrt "+ localSocket.getPort() );
+        System.out.println("IP "+localSocket.getInetAddress());
     }
 }
