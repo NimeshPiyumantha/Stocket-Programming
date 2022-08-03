@@ -10,6 +10,12 @@ This is learning internet server technologies.
 ![alt text](https://github.com/NimeshPiyumantha/Stocket-Programming/blob/master/Module-2/src/lk/ijse/gdse/assests/Stocke_Programming.png)
 ##
 
+* Simple Chat Application with UI
+##
+![alt text](https://github.com/NimeshPiyumantha/Stocket-Programming/blob/master/Module-3/src/lk/ijse/gdse/assests/images/clientSever.png)
+##
+
+
 ###  
 ### Clone this repository ✅
 ```md
