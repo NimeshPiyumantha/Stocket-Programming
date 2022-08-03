@@ -1,10 +1,10 @@
-# Socket-Programming
+# Stocket-Programming
 This is learning internet server technologies.
 * Simple Chat Application 
 
-### Socket Programming
+### Stocket-Programming
 * Java
-* Socket Programming
+* Stocket-Programming
 
 ##
 ![alt text](https://github.com/NimeshPiyumantha/Stocket-Programming/blob/master/Module-2/src/lk/ijse/gdse/assests/Stocke_Programming.png)
@@ -39,11 +39,11 @@ https://github.com/NimeshPiyumantha/Stocket-Programming.git
 ##
 <div align="center">
 
-![repo license](https://img.shields.io/github/license/NimeshPiyumantha/Socket-Programming?&labelColor=black&color=3867d6&style=for-the-badge)
-![repo size](https://img.shields.io/github/repo-size/NimeshPiyumantha/Socket-Programming?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
-![GitHub forks](https://img.shields.io/github/forks/NimeshPiyumantha/Socket-Programming?&labelColor=black&color=0fb9b1&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/NimeshPiyumantha/Socket-Programming?&labelColor=black&color=f7b731&style=for-the-badge)
-![GitHub LastCommit](https://img.shields.io/github/last-commit/NimeshPiyumantha/Socket-Programming?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
+![repo license](https://img.shields.io/github/license/NimeshPiyumantha/Stocket-Programming?&labelColor=black&color=3867d6&style=for-the-badge)
+![repo size](https://img.shields.io/github/repo-size/NimeshPiyumantha/Stocket-Programming?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
+![GitHub forks](https://img.shields.io/github/forks/NimeshPiyumantha/Stocket-Programming?&labelColor=black&color=0fb9b1&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/NimeshPiyumantha/Stocket-Programming?&labelColor=black&color=f7b731&style=for-the-badge)
+![GitHub LastCommit](https://img.shields.io/github/last-commit/NimeshPiyumantha/Stocket-Programming?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
 </div>
 
 <div align="center">
