@@ -12,7 +12,7 @@ This is learning internet server technologies.
 
 * Simple Chat Application with UI
 ##
-![alt text](https://github.com/NimeshPiyumantha/Stocket-Programming/blob/master/Module-3/src/lk/ijse/gdse/assests/images/clientSever.png)
+![alt text](https://github.com/NimeshPiyumantha/Stocket-Programming/blob/master/Module-3/src/lk/ijse/gdse/views/assest/images/clientSever.png)
 ##
 
 
