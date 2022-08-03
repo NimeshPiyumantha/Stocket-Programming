@@ -39,15 +39,17 @@ public class SeverApplicationController implements Initializable {
         new Thread(() -> {
             try {
                 serverSocket = new ServerSocket(PORT);
-                System.out.println("Sever Started..");
+                txtArea.appendText("Server Started..");
                 accept = serverSocket.accept();
-                System.out.println("Client Connected..");
+                txtArea.appendText("\nClient Connected..");
 
-                dataOutputStream = new DataOutputStream(accept.getOutputStream());
                 dataInputStream = new DataInputStream(accept.getInputStream());
+                dataOutputStream = new DataOutputStream(accept.getOutputStream());
 
-                message = dataInputStream.readUTF();
-                System.out.println(message);
+                while (!message.equals("exit")){
+                    message = dataInputStream.readUTF();
+                    txtArea.appendText("\nClient : " + message);
+                }
 
             }catch (IOException e){
                 e.printStackTrace();
