@@ -5,7 +5,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import sun.plugin.viewer.IExplorerPluginObject;
+
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -32,8 +32,7 @@ public class SeverApplicationController implements Initializable {
     Socket accept;
     DataInputStream dataInputStream;
     DataOutputStream dataOutputStream;
-    BufferedReader bufferedReader;
-    String message;
+    String message ="";
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -56,6 +55,8 @@ public class SeverApplicationController implements Initializable {
         }).start();
     }
 
-    public void sendOnAction(ActionEvent actionEvent) {
+    public void sendOnAction(ActionEvent actionEvent) throws IOException {
+        dataOutputStream.writeUTF(textMessage.getText().trim());
+        dataOutputStream.flush();
     }
 }
