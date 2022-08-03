@@ -13,7 +13,7 @@ This is learning internet server technologies.
 ###  
 ### Clone this repository ✅
 ```md
-https://github.com/NimeshPiyumantha/Socket-Programming.git
+https://github.com/NimeshPiyumantha/Stocket-Programming.git
 ```
 ##  Connect with me
 #### If you have any bugs or issues , If you want to explain my code please contact me on :
