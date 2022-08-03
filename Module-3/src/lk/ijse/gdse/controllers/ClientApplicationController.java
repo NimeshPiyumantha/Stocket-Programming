@@ -29,8 +29,8 @@ public class ClientApplicationController implements Initializable {
     Socket socket;
     DataInputStream dataInputStream;
     DataOutputStream dataOutputStream;
-    BufferedReader bufferedReader;
-    String message;
+
+    String message = "";
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -50,6 +50,9 @@ public class ClientApplicationController implements Initializable {
         }).start();
     }
 
-    public void sendOnAction(ActionEvent actionEvent) {
+    public void sendOnAction(ActionEvent actionEvent) throws IOException {
+        dataOutputStream.writeUTF(textMessage.getText().trim());
+        dataOutputStream.flush();
     }
+
 }
