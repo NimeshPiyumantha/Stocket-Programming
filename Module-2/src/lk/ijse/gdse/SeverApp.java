@@ -1,4 +1,4 @@
-package gdse;
+package lk.ijse.gdse;
 
 import java.io.*;
 import java.net.ServerSocket;
