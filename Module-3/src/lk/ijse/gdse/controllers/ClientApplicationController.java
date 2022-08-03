@@ -36,13 +36,15 @@ public class ClientApplicationController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         new Thread(() -> {
             try {
-                socket = new Socket("Local Socket", PORT);
+                socket = new Socket("localhost",PORT);
 
-                dataOutputStream = new DataOutputStream(socket.getOutputStream());
                 dataInputStream = new DataInputStream(socket.getInputStream());
+                dataOutputStream = new DataOutputStream(socket.getOutputStream());
 
-                message = dataInputStream.readUTF();
-                System.out.println(message);
+                while (!message.equals("exit")){
+                    message = dataInputStream.readUTF();
+                    txtArea.appendText("\n Server : " + message);
+                }
 
             }catch (IOException e){
                 e.printStackTrace();
