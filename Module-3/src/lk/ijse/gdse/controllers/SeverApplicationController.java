@@ -33,6 +33,7 @@ public class SeverApplicationController implements Initializable {
     DataInputStream dataInputStream;
     DataOutputStream dataOutputStream;
     BufferedReader bufferedReader;
+    String message;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -46,7 +47,7 @@ public class SeverApplicationController implements Initializable {
                 dataOutputStream = new DataOutputStream(accept.getOutputStream());
                 dataInputStream = new DataInputStream(accept.getInputStream());
 
-                String message = dataInputStream.readUTF();
+                message = dataInputStream.readUTF();
                 System.out.println(message);
 
             }catch (IOException e){
@@ -55,6 +56,6 @@ public class SeverApplicationController implements Initializable {
         }).start();
     }
 
-    public void sendOnaction(ActionEvent actionEvent) {
+    public void sendOnAction(ActionEvent actionEvent) {
     }
 }
